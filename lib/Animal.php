@@ -1,6 +1,6 @@
 <?php
 
-abstract class Animal {
+abstract class Animal implements Sounding{
 
     public $type;
     public $breed;
@@ -16,5 +16,5 @@ abstract class Animal {
 	return 'Type: ' . $this->type . '</br>' . 'Breed: ' . $this->breed . '</br>' . 'Age: ' . $this->age . '</br>';
     }
 
-    public function voice();
+    abstract public function voice();
 }
