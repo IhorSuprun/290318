@@ -1,5 +1,7 @@
 <?php
 
-class Lion {
-    //put your code here
+class Lion extends Animal{
+    public function voice(){
+	echo 'roar</br>';
+    }
 }
