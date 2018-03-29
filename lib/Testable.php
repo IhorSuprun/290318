@@ -1,5 +1,5 @@
 <?php
 
 interface Testable {
-    //put your code here
+    public function test();
 }
